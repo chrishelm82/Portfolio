@@ -77,8 +77,8 @@ body {
   }
   
   nav {
-    float: right;
-    margin-top: 25px;
+    float: center;
+    margin-top: px;
   }
   
   nav a {
@@ -189,7 +189,7 @@ body {
   input[type=email],
   textarea {
     display: block;
-    width: 100%;
+    width: 70%;
   }
   
   input[type=text],
@@ -237,5 +237,4 @@ body {
     align-items:center;
     text-align:center;
     padding: 0 20px;
-    
     }
