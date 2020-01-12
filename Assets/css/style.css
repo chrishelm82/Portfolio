@@ -35,7 +35,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: skyblue;
   }
   
   h1 {
@@ -73,7 +73,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background:skyblue;
   }
   
   nav {
@@ -105,7 +105,7 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid skyblue;
     height: 50px;
   }
   
@@ -162,7 +162,7 @@ body {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: skyblue;
     border-bottom: 0;
   }
   
@@ -210,7 +210,7 @@ body {
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: skyblue;
     border: 0 none;
   }
   
@@ -227,3 +227,15 @@ body {
       line-height: 1.5;
     }
   }  
+  #showcase{
+    background-image:url('https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding: 0 20px;
+    
+    }
