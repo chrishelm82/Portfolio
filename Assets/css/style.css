@@ -98,16 +98,39 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 0px 0;
   clear: both;
   font-size: 12px;
   color: #ffffff;
   color: #cccccc;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid skyblue;
-  height: 50px;
+  background: lightslategrey;
+  height: 30px;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 9000000;
+  animation-name: example;
+  animation-duration: 5s;
 }
+ 
+  /* The animation code */
+@keyframes example {
+  0%   {background-color: red;}
+  10%  {background-color: yellow;}
+  15%  {background-color: blue;}
+  20% {background-color: green;}
+  25% {background-color:pink;}
+  30% {background-color:purple;}
+  40% {background-color:orange;}
+  50% {background-color:skyblue;}
+  60% {background-color:peachpuff;}
+  70% {background-color:lime;}
+  80% {background-color:violet;}
+  90% {background-color:cornflowerblue;}
+  100% {background-color:maroon;}
+}
+
+
 
 h3,
 h2 {
